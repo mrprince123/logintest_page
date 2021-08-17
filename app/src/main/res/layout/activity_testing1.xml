@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Testing1Activity">
+
+    <ImageView
+        android:id="@+id/myImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/myImageViewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/myImageView"
+        android:layout_alignTop="@id/myImageView"
+        android:layout_alignRight="@id/myImageView"
+        android:layout_alignBottom="@id/myImageView"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text="Hello"
+        android:textColor="#000000" />
+
+    <!-- Colors category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="mainActive"
+            android:text="English to Spanish"
+            android:textSize="25sp" />
+    </FrameLayout>
+
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="main2Active"
+            android:text="English to French"
+            android:textSize="25sp" />
+    </FrameLayout>
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="main3Active"
+            android:text="English to German"
+            android:textSize="25sp" />
+    </FrameLayout>
+
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="main4Active"
+            android:text="English to Russian"
+            android:textSize="25sp" />
+    </FrameLayout>
+
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="main5Active"
+            android:text="English to Chinese"
+            android:textSize="25sp" />
+    </FrameLayout>
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="main6Active"
+            android:text="English to Hindi"
+            android:textSize="25sp" />
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_numbers">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="mainActive"
+            android:text="Local Language"
+            android:textSize="30sp" />
+    </FrameLayout>
+
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="main7Active"
+            android:text="English to Bengali"
+            android:textSize="25sp" />
+    </FrameLayout>
+
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="main8Active"
+            android:text="English to Marathi"
+            android:textSize="25sp" />
+    </FrameLayout>
+
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="main9Active"
+            android:text="English to Gujarati"
+            android:textSize="25sp" />
+    </FrameLayout>
+
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="main10Active"
+            android:text="English to Tamil"
+            android:textSize="25sp" />
+    </FrameLayout>
+
+
+    <!-- Phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_family">
+
+        <TextView
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:onClick="main11Activity"
+            android:text="English to Odia"
+            android:textSize="25sp" />
+    </FrameLayout>
+
+</RelativeLayout>
